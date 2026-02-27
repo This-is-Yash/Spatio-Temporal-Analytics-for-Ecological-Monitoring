@@ -105,10 +105,10 @@ Future work may include:
 ---
 
 ## Author
-Yash Pathak
-Soham Mishra
-Vedant Tendulkar
-Smit Chavan
+* Yash Pathak
+* Soham Mishra
+* Vedant Tendulkar
+* Smit Chavan
 
 Big Data Analytics Project
 Third Year AI & Data Science
