@@ -14,14 +14,27 @@ By applying machine learning models, the project aims to detect trends, anomalie
 
 The dataset used in this project contains environmental monitoring information such as:
 
-* Temperature
-* Humidity
-* Air quality index
-* Geographic location (latitude and longitude)
-* Timestamp information
+*StationId	
+*Datetime	
+*PM2.5	
+*PM10	NO	
+*NO2	
+*NOx	
+*NH3	
+*CO	
+*SO2	
+*O3	
+*Benzene	
+*Toluene	
+*Xylene	
+*AQI	
+*AQI_Bucket
 
 The dataset represents ecological observations collected from environmental sensors and monitoring stations.
 It enables **spatio-temporal analysis**, where patterns are studied across both **time and geographic space**.
+Due to limitation with the uploading of file upto 25mb dataset has not been added in the repo.We have use station_hour out of 4 dataset been loaded in the kaggle.
+link of the repo is: https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india 
+
 
 ---
 
@@ -61,7 +74,7 @@ The project uses machine learning algorithms for environmental pattern detection
 * **K-Means Clustering**
   Used to group environmental data points based on similarity.
 
-* **Random Forest (Optional)**
+* **Random Forest**
   Used for predicting environmental trends.
 
 These models help identify hidden patterns in large-scale ecological datasets.
